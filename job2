@@ -1,0 +1,42 @@
+*1)
+a=5
+b=12
+a, b = b, a
+print(a, b)
+* 2)
+def rever(a):
+    out = a.upper()[::-1]
+    
+    return out
+rever("Hello Word")
+
+
+* 3)
+def number(a):
+    out = len(a.split())
+    l = [i for i in a.split('.') if i.strip()]
+    print(len(l))
+    
+    print(out)
+number('Hello World. Python is cool.')
+
+*4)
+def number():
+    b = int(input())
+    c = 0
+    d = 1
+    while( b > 0):
+       print( b % 10 )
+       b = b / 10
+       c = c + b
+       d = d * b
+    return (c, d)
+Python;-2
+Django или другие Python-фреймворки;<1  pygame<2,1<KIVY
+PostgreSQL или другой SQL-сервер;1
+NoSQL базы данных;1
+ОС *nix, стандартные средства shell;0
+алгоритмы и структуры данных;1
+Git, SVN, другие VCS.2
+HTML / JS (верстка и прочее не требуется, просто общие знания)1
+практика разработки ПО 1
